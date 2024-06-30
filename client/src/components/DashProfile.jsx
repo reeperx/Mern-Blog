@@ -203,7 +203,7 @@ export default function DashProfile() {
           <img
             src={imageFileUrl || currentUser.profilePicture}
             alt='user'
-            className={`rounded-full w-full h-full object-cover border-8 border-[lightgray] ${
+            className={`rounded-full w-full h-full object-cover border-8 border-[#050505] ${
               imageFileUploadProgress &&
               imageFileUploadProgress < 100 &&
               'opacity-60'
@@ -235,7 +235,7 @@ export default function DashProfile() {
         />
         <Button
           type='submit'
-          gradientDuoTone='purpleToBlue'
+          color={"dark"}
           outline
           disabled={loading || imageFileUploading}
         >
@@ -245,7 +245,7 @@ export default function DashProfile() {
           <Link to={'/create-post'}>
             <Button
               type='button'
-              gradientDuoTone='purpleToPink'
+              color={"dark"}
               className='w-full'
             >
               Create a post
@@ -254,12 +254,12 @@ export default function DashProfile() {
         )}
       </form>
       <div className='text-red-500 flex justify-between mt-5'>
-        <span onClick={() => setShowModal(true)} className='cursor-pointer'>
+        <Button onClick={() => setShowModal(true)} className='cursor-pointer' color={"red"}>
           Delete Account
-        </span>
-        <span onClick={handleSignout} className='cursor-pointer'>
+        </Button>
+        <Button onClick={handleSignout} className='cursor-pointer' color={"dark"}>
           Sign Out
-        </span>
+        </Button>
       </div>
       {updateUserSuccess && (
         <Alert color='success' className='mt-5'>
