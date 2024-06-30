@@ -46,8 +46,7 @@ export default function SignUp() {
             <img src="/logo.svg" alt="logo" />
           </Link>
           <p className="text-sm mt-5">
-            This is a demo project. You can sign up with your email and password
-            or with Google.
+            Sign up to learn more about my story!.
           </p>
         </div>
         {/* right */}
@@ -67,7 +66,7 @@ export default function SignUp() {
               <Label value="Your email" />
               <TextInput
                 type="email"
-                placeholder="name@company.com"
+                placeholder="test@test.com"
                 id="email"
                 onChange={handleChange}
               />
@@ -82,7 +81,7 @@ export default function SignUp() {
               />
             </div>
             <Button
-              gradientDuoTone="purpleToPink"
+              color={"dark"}
               type="submit"
               disabled={loading}
             >

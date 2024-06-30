@@ -48,14 +48,10 @@ export default function SignIn() {
         {/* left */}
         <div className='flex-1'>
           <Link to='/' className='font-bold dark:text-white text-4xl'>
-            <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>
-              Sahand's
-            </span>
-            Blog
+          <img src="/logo.svg" alt="logo" />
           </Link>
           <p className='text-sm mt-5'>
-            This is a demo project. You can sign in with your email and password
-            or with Google.
+            Sign in to learn more about my story.
           </p>
         </div>
         {/* right */}
@@ -66,7 +62,7 @@ export default function SignIn() {
               <Label value='Your email' />
               <TextInput
                 type='email'
-                placeholder='name@company.com'
+                placeholder='test@test.com'
                 id='email'
                 onChange={handleChange}
               />
@@ -81,7 +77,7 @@ export default function SignIn() {
               />
             </div>
             <Button
-              gradientDuoTone='purpleToPink'
+              color={"dark"}
               type='submit'
               disabled={loading}
             >
@@ -97,7 +93,7 @@ export default function SignIn() {
             <OAuth />
           </form>
           <div className='flex gap-2 text-sm mt-5'>
-            <span>Dont Have an account?</span>
+            <span>Don&apos;t Have an account?</span>
             <Link to='/sign-up' className='text-blue-500'>
               Sign Up
             </Link>
