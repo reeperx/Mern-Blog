@@ -103,7 +103,7 @@ export default function CreatePost() {
             }
           >
             <option value='uncategorized'>Select a category</option>
-            <option value='articles'>articles</option>
+            <option value='articles'>Articles</option>
             <option value='court'>Court Cases</option>
             <option value='docs'>Documentation</option>
           </Select>
