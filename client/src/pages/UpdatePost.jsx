@@ -143,7 +143,7 @@ export default function UpdatePost() {
           />
           <Button
             type='button'
-            gradientDuoTone='purpleToBlue'
+            color={"dark"}
             size='sm'
             outline
             onClick={handleUpdloadImage}
