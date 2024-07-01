@@ -24,13 +24,11 @@ export default function FooterCom() {
             <div>
               <Footer.Title title="About" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#" target="_blank" rel="noopener noreferrer">
+                <Footer.Link href="/gallery">
                   Gallery
                 </Footer.Link>
                 <Footer.Link
-                  href="/contact"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#"
                 >
                   Cases
                 </Footer.Link>
@@ -39,7 +37,7 @@ export default function FooterCom() {
             <div>
               <Footer.Title title="Follow us" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#" target="_blank" rel="noopener noreferrer">
+                <Footer.Link href="/contact">
                   Contact
                 </Footer.Link>
                 <Footer.Link href="#">Team</Footer.Link>

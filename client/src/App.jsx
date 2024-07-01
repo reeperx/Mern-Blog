@@ -15,6 +15,7 @@ import PostPage from './pages/PostPage';
 import ScrollToTop from './components/ScrollToTop';
 import Search from './pages/Search';
 import Blogs from './pages/Blogs';
+import Contact from './pages/Contact';
 
 export default function App() {
   return (
@@ -38,6 +39,7 @@ export default function App() {
 
         <Route path='/gallery' element={<Projects />} />
         <Route path='/post/:postSlug' element={<PostPage />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />
     </BrowserRouter>
