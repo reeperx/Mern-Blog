@@ -28,8 +28,7 @@ export default function Home() {
 
           <div className="mt-5 max-w-3xl text-center mx-auto">
             <p className="text-lg text-gray-600 dark:text-neutral-400">
-              Revolutionize your content creation with our AI-powered app,
-              delivering engaging and high-quality text in seconds.
+              Dedicated to speak the truth about my treatment and the unfair treatment surrounding me and my case.
             </p>
           </div>
 
@@ -70,7 +69,7 @@ export default function Home() {
                 Articles
               </h3>
               <p className="mt-1 text-gray-600 dark:text-neutral-400">
-                Responsive, and mobile-first project on the web
+                A collection of articles telling my side of the truth.
               </p>
             </div>
           </a>
@@ -103,7 +102,7 @@ export default function Home() {
                 Videos
               </h3>
               <p className="mt-1 text-gray-600 dark:text-neutral-400">
-                Components are easily customized and extendable
+                Interviews and media to help get the truth heard
               </p>
             </div>
           </a>
@@ -134,7 +133,7 @@ export default function Home() {
                 Pictures
               </h3>
               <p className="mt-1 text-gray-600 dark:text-neutral-400">
-                Every component and plugin is well documented
+                Pictures showcasing the treatment and my lifestyle
               </p>
             </div>
           </a>
