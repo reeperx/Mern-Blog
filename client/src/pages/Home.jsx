@@ -1,5 +1,5 @@
 import { Button } from "flowbite-react";
-import { BsInfoSquare, BsNewspaper, BsPciCard, BsTv } from "react-icons/bs";
+import { BsInfoSquare, BsNewspaper, BsTv } from "react-icons/bs";
 import { HiPhotograph } from "react-icons/hi";
 import { Link } from "react-router-dom";
 
