@@ -8,15 +8,14 @@ export default function Home() {
     <div className="min-h-screen">
       <div className="relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-[url('https://preline.co/assets/svg/examples/polygon-bg-element.svg')] dark:before:bg-[url('https://preline.co/assets/svg/examples-dark/polygon-bg-element.svg')] before:bg-no-repeat before:bg-top before:bg-cover before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
+            <p className="text-xl font-semibold items-center justify-center text-center">John 15:7</p>
           <div className="flex justify-center">
-            <p></p>
-            <p
-              className="inline-flex text-center font-semibold tex items-center gap-x-2 bg-white border border-gray-200 text-sm text-gray-800 p-1 ps-3 rounded-full transition hover:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700 dark:hover:border-neutral-600 dark:text-neutral-200"
+            <a
+              className="inline-flex text-center font-semibold items-center gap-x-2 bg-white border border-gray-500 text-sm text-black p-1 ps-3 rounded-full transition hover:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700 dark:hover:border-neutral-600 dark:text-neutral-200"
               href="/about"
             >
-              If ye abide in me, and my words abide in you, <br />ye shall ask what ye will, and it shall be done unto you
-              <span></span>
-            </p>
+              If ye abide in me, and my words abide in you, <br />ye shall ask what ye will, and it shall be done unto you <br /><span></span>
+            </a>
           </div>
 
           <div className="mt-5 max-w-2xl text-center mx-auto">
