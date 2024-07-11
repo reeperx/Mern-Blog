@@ -11,7 +11,7 @@ export default function Home() {
             <p className="text-xl font-semibold items-center justify-center text-center">John 15:7</p>
           <div className="flex justify-center">
             <a
-              className="inline-flex text-center font-semibold items-center gap-x-2 bg-white border border-gray-500 text-sm text-black p-1 ps-3 rounded-full transition hover:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700 dark:hover:border-neutral-600 dark:text-neutral-200"
+              className="inline-flex text-center font-semibold items-center gap-x-2 bg-white border border-gray-500 text-sm text-black p-1 ps-3 rounded-md transition hover:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700 dark:hover:border-neutral-600 dark:text-neutral-200"
               href="/about"
             >
               If ye abide in me, and my words abide in you, <br />ye shall ask what ye will, and it shall be done unto you <br /><span></span>
