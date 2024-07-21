@@ -7,7 +7,7 @@ const BackgroundMusic = () => {
 
   const onReady = (event) => {
     playerRef.current = event.target;
-    playerRef.current.setVolume(10); // Set volume to 20%
+    playerRef.current.setVolume(5); // Set volume to %
   };
 
   const onStateChange = (event) => {
