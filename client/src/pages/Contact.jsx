@@ -80,7 +80,7 @@ export default function Contact() {
         {/* left */}
         <div className="flex-1">
           <Link to="/" className="font-bold dark:text-white text-4xl">
-            <img src="/logo.svg" alt="logo" />
+            <img src="/logo.png" alt="logo" />
           </Link>
           <p className="text-sm mt-5">
             Fill out the form here and we will get back to you as soon as

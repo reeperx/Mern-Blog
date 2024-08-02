@@ -42,8 +42,11 @@ export default function SignUp() {
       <div className="flex p-3 max-w-3xl mx-auto flex-col md:flex-row md:items-center gap-5">
         {/* left */}
         <div className="flex-1">
-          <Link to="/" className="font-bold dark:text-white text-4xl">
-            <img src="/logo.svg" alt="logo" />
+        <Link to='/' className='font-bold flex justify-center items-center dark:text-white text-4xl'>
+          <img src="/logo.png" alt="logo" width={80} />
+          <h1 className="ml-2 mt-5 uppercase text-6xl">
+          Thabo <span className="text-[#c49c26]">Bester</span>{" "}
+        </h1>
           </Link>
           <p className="text-sm mt-5">
             Sign up to learn more about my story!.

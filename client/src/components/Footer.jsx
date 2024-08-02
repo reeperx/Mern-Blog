@@ -15,9 +15,12 @@ export default function FooterCom() {
           <div className="mt-5">
             <Link
               to="/"
-              className="self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white"
+              className="self-center flex whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white"
             >
-              <img src="/logo.svg" alt="logo" />
+              <img src="/logo.png" alt="logo" width={30} />
+              <h1 className="ml-2 mt-5 uppercase text-xl">
+          Thabo <span className="text-[#c49c26]">Bester</span>{" "}
+        </h1>
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 mt-4 sm:grid-cols-3 sm:gap-6">

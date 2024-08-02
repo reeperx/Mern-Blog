@@ -52,9 +52,12 @@ export default function Header() {
     <Navbar className="border-b-2">
       <Link
         to="/"
-        className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
+        className="self-center flex items-center justify-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
       >
-        <img src="/logo.svg" alt="logo" />
+        <img src="/logo.png" alt="logo" width={30} />
+        <h1 className="ml-2 mt-5 uppercase text-xl">
+          Thabo <span className="text-[#c49c26]">Bester</span>{" "}
+        </h1>
       </Link>
       <form onSubmit={handleSubmit}>
         <TextInput
@@ -107,7 +110,7 @@ export default function Header() {
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
-      <Navbar.Link active={path === "/"} as={"div"}>
+        <Navbar.Link active={path === "/"} as={"div"}>
           <Link to="/">Home</Link>
         </Navbar.Link>
         <Navbar.Link active={path === "/blogs"} as={"div"}>
