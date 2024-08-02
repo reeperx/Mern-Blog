@@ -33,7 +33,7 @@ export default function Home() {
           </div>
 
           <div className="mt-5 max-w-3xl text-center mx-auto">
-            <p className="text-lg text-gray-600 dark:text-neutral-400">
+            <p className="text-lg ">
               Dedicated to speak the truth about my treatment and the unfair
               treatment surrounding me and my case.
             </p>
@@ -50,7 +50,7 @@ export default function Home() {
       </div>
 
       <div className="mt-5 max-w-3xl text-center mx-auto">
-        <p className="text-lg text-gray-600 dark:text-neutral-400">
+        <p className="text-lg ">
           Head over to our blogs to get the latest updates and news articles.
         </p>
       </div>
@@ -67,7 +67,7 @@ export default function Home() {
               <h3 className="group-hover:text-gray-600 text-lg font-semibold text-gray-800 dark:text-white dark:group-hover:text-gray-400">
                 Articles
               </h3>
-              <p className="mt-1 text-gray-600 dark:text-neutral-400">
+              <p className="mt-1 ">
                 A collection of articles telling my side of the truth.
               </p>
             </div>
@@ -82,7 +82,7 @@ export default function Home() {
               <h3 className="group-hover:text-gray-600 text-lg font-semibold text-gray-800 dark:text-white dark:group-hover:text-gray-400">
                 Videos
               </h3>
-              <p className="mt-1 text-gray-600 dark:text-neutral-400">
+              <p className="mt-1 ">
                 Interviews and media to help get the truth heard
               </p>
             </div>
@@ -97,7 +97,7 @@ export default function Home() {
               <h3 className="group-hover:text-gray-600 text-lg font-semibold text-gray-800 dark:text-white dark:group-hover:text-gray-400">
                 Pictures
               </h3>
-              <p className="mt-1 text-gray-600 dark:text-neutral-400">
+              <p className="mt-1 ">
                 Pictures showcasing the treatment and my lifestyle
               </p>
             </div>
@@ -112,9 +112,7 @@ export default function Home() {
               <h3 className="group-hover:text-gray-600 text-lg font-semibold text-gray-800 dark:text-white dark:group-hover:text-gray-400">
                 24/7 Content
               </h3>
-              <p className="mt-1 text-gray-600 dark:text-neutral-400">
-                Contact us 24 hours a day, 7 days a week
-              </p>
+              <p className="mt-1 ">Contact us 24 hours a day, 7 days a week</p>
             </div>
           </a>
         </div>

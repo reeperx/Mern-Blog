@@ -18,7 +18,7 @@ export default function Blogs() {
     <div>
       <div className="flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto h-screen">
         <h1 className="text-3xl font-bold lg:text-6xl">News and Articles</h1>
-        <p className="text-gray-500 text-xs sm:text-sm">
+        <p className="text-xs sm:text-sm">
           Here you&apos;ll find a variety of articles detailing my story and
           learn the truth behind it all.
         </p>
